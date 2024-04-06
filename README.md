@@ -4,7 +4,6 @@ Debian 12.5.0 64-bit @ 2024.03.06
 <details open><summary><b>Вдохновлено</b></summary>
 
 - [Reddit - Shaggy96Fi](https://www.reddit.com/r/unixporn/comments/lydglv/kdeplasma_easy_on_the_eyes_gruvbox_theme/)
-- [Reddit - BeerBellyPete](https://www.reddit.com/r/unixporn/comments/kt1qlg/plasma_my_first_rice_on_endeavouros_with_kde/)
 - [Reddit - linuxscoop](https://www.reddit.com/r/unixporn/comments/wih7jm/kde_plasma_new_desktop_layout_for_my_daily_driver/)
 - [Reddit - 8KCoffeeWizard](https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/)
 </details>
