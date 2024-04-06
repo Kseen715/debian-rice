@@ -95,6 +95,16 @@ exec zsh
 timedatectl set-timezone Europe/Moscow
 ```
 
+Установка шрифтов
+``` zsh
+
+```
+
+
 Настриаваем плазму:
 Login Screen
 https://store.kde.org/p/1312658
+Screen Locking Wallpapers
+https://store.kde.org/p/1069729
+Global Theme
+https://store.kde.org/p/1327723
