@@ -28,6 +28,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
 <img src=https://i.imgur.com/vaEOImP.jpeg>
 <details><summary>More screenshots</summary>
 <img src=https://i.imgur.com/z89N0A5.jpeg>
+<img src=https://imgur.com/a/xq83Riu>
 </details>
 
 <details><summary><b>User setup:</b></summary>
