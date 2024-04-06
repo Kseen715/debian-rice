@@ -3,8 +3,8 @@ Debian 12.5.0 64-bit @ 2024.03.06
 
 <details open><summary><b>Inspired by:</b></summary>
 
-- [Reddit - Shaggy96Fi](https://www.reddit.com/r/unixporn/comments/lydglv/kdeplasma_easy_on_the_eyes_gruvbox_theme/)
-- [Reddit - 8KCoffeeWizard](https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/)
+  - [Reddit - Shaggy96Fi](https://www.reddit.com/r/unixporn/comments/lydglv/kdeplasma_easy_on_the_eyes_gruvbox_theme/)
+  - [Reddit - 8KCoffeeWizard](https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/)
 </details>
 
 <p align="center">
@@ -27,8 +27,8 @@ Debian 12.5.0 64-bit @ 2024.03.06
 
 <img src=https://i.imgur.com/vaEOImP.jpeg>
 <details><summary>More screenshots</summary>
-<img src=https://i.imgur.com/z89N0A5.jpeg>
-<img src=https://i.imgur.com/xdnn8W3.png>
+  <img src=https://i.imgur.com/z89N0A5.jpeg>
+  <img src=https://i.imgur.com/xdnn8W3.png>
 </details>
 
 <details><summary><b>User setup:</b></summary>
@@ -67,16 +67,16 @@ sudo apt update && sudo apt upgrade
 Install neccessary (for me) soft:
 <details><summary>list</summary>
   
-- `micro`
-- `curl`
-- `htop`
-- `btop`
-- `latte-dock`
-- `snap`
+  - `micro`
+  - `curl`
+  - `htop`
+  - `btop`
+  - `latte-dock`
+  - `snapd`
 </details>
 
 ``` bash
-sudo apt install micro curl htop btop latte-dock snap -y
+sudo apt install micro curl htop btop latte-dock snapd -y
 ```
 
 
@@ -91,10 +91,10 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ```
 <details><summary>If errors with GitHub appears</summary>
 
-  Add this to `/etc/hosts`:
-  ```
-  199.232.28.133 raw.githubusercontent.com
-  ```
+    Add this to `/etc/hosts`:
+    ```
+    199.232.28.133 raw.githubusercontent.com
+    ```
 </details>
 
 Plugins for `Oh My Zsh`:
@@ -113,10 +113,10 @@ timedatectl set-timezone Europe/Moscow
 ```
 
 <details><summary><b>Install fonts</b></summary>
-  
-``` zsh
-sudo mv *.ttf /usr/share/fonts/truetype
-```
+    
+  ``` zsh
+  sudo mv *.ttf /usr/share/fonts/truetype
+  ```
 </details>
 
 Setting up KDE:
@@ -127,38 +127,45 @@ Setting up KDE:
 
 <details><summary><b>VSCode</b></summary>
   
-``` zsh
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-rm -f packages.microsoft.gpg
-sudo apt update && sudo apt install code
-```
+  ``` zsh
+  sudo apt-get install wget gpg
+  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+  rm -f packages.microsoft.gpg
+  sudo apt update && sudo apt install code
+  ```
 </details>
 
 <details open><summary><b>VSCode Insiders</b></summary>
   
-``` zsh
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-rm -f packages.microsoft.gpg
-sudo apt update && sudo apt install code-insiders
-```
+  ``` zsh
+  sudo apt-get install wget gpg
+  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+  rm -f packages.microsoft.gpg
+  sudo apt update && sudo apt install code-insiders
+  ```
 </details>
 
 <details><summary><b>VSCodium</b></summary>
   
-``` zsh
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-    | gpg --dearmor \
-    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg \
-&& echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-    | sudo tee /etc/apt/sources.list.d/vscodium.list \
-&& sudo apt update && sudo apt install codium
-```
+  ``` zsh
+  wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+      | gpg --dearmor \
+      | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg \
+  && echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
+      | sudo tee /etc/apt/sources.list.d/vscodium.list \
+  && sudo apt update && sudo apt install codium
+  ```
+</details>
+
+<details open><summary><b>Telegram Desktop</b></summary>
+
+  ``` zsh
+  sudo snap install telegram-desktop
+  ```
 </details>
 
 Delete some bloatware:
