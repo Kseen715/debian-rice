@@ -24,7 +24,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
 - ColorScheme: Gruvbox-Dark-B-LB
 - Icons: Gruvbox
 - Dotfiles: here
-- Wallpapers: here
+- Wallpapers: [here](https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/gruvbox_forest-4.png)
 
 <img src=https://i.imgur.com/amTygbr.png>
 
