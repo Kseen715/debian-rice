@@ -119,7 +119,7 @@ sudo mv *.ttf /usr/share/fonts/truetype
 
 Setting up KDE:
 - [Global Theme](https://store.kde.org/p/1327723)
-- [Login Screen](https://store.kde.org/p/1312658)https://store.kde.org/p/2139782
+- [Login Screen](https://store.kde.org/p/1312658)https://store.kde.org/p/1214121
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 - [Konsole Theme](https://store.kde.org/p/1327725)
 
