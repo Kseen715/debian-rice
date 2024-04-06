@@ -53,14 +53,17 @@ https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real
 sudo apt update && sudo apt upgrade
 ```
 
-В качестве текстового редактора будем использовать `micro`: 
-``` bash
-sudo apt install micro curl -y
-```
+Устанавливаем необходимый софт:
+<details><summary>список</summary>
+  
+- `micro`
+- `curl`
+</details>
 
 ``` bash
-sudo apt install open-vm-tools -y
+sudo apt install micro curl open-vm-tools -y
 ```
+
 
 Устанавливаем `zsh` и перезапускаем сессию:
 ``` bash
@@ -109,5 +112,5 @@ sudo mv *.ttf /usr/share/fonts/truetype
 
 Удаляем ненужное:
 ``` zsh
-sudo apt remove nextcloud sweeper -y && sudo apt autoremove -y
+sudo apt remove nextcloud sweeper -y && sudo apt autoremove
 ```
