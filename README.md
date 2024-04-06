@@ -80,10 +80,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 Плагины `OMZ`:
 ``` zsh
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-``` zsh
-curl -sS https://starship.rs/install.sh | sudo sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && curl -sS https://starship.rs/install.sh | sudo sh
 ```
 
 ``` zsh
@@ -109,3 +106,8 @@ Screen Locking Wallpapers
 https://store.kde.org/p/1069729
 Global Theme
 https://store.kde.org/p/1327723
+
+Удаляем ненужное:
+``` zsh
+sudo apt remove nextcloud sweeper -y && sudo apt autoremove -y
+```
