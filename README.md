@@ -71,7 +71,7 @@ sudo apt update && sudo apt upgrade
 </details>
 
 ``` bash
-sudo apt install micro curl open-vm-tools htop btop -y
+sudo apt install micro curl htop btop -y
 ```
 
 
