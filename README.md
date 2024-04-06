@@ -113,6 +113,29 @@ sudo mv *.ttf /usr/share/fonts/truetype
 - [Login Screen](https://store.kde.org/p/1312658)
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 
+<details><summary><b>VSCode (insiders)</b></summary>
+  
+``` zsh
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+sudo apt update && sudo apt install code-insiders
+```
+</details>
+
+<details><summary><b>VSCodium</b></summary>
+  
+``` zsh
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+    | gpg --dearmor \
+    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg \
+&& echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
+    | sudo tee /etc/apt/sources.list.d/vscodium.list \
+&& sudo apt update && sudo apt install codium
+```
+</details>
 
 Удаляем ненужное:
 ``` zsh
