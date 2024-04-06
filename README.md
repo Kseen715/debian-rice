@@ -26,7 +26,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
 - Dotfiles: here
 - Wallpapers: [here](https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/gruvbox_forest-4.png)
 
-<img src=https://i.imgur.com/amTygbr.png>
+<img src=https://i.imgur.com/SFu8C1O.png>
 
 <details><summary><b>Настройка пользователя</b></summary>
 
@@ -120,7 +120,19 @@ sudo mv *.ttf /usr/share/fonts/truetype
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 - [Konsole Theme](https://store.kde.org/p/1327725)
 
-<details open><summary><b>VSCode (insiders)</b></summary>
+<details><summary><b>VSCode</b></summary>
+  
+``` zsh
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+sudo apt update && sudo apt install code
+```
+</details>
+
+<details open><summary><b>VSCode Insiders</b></summary>
   
 ``` zsh
 sudo apt-get install wget gpg
