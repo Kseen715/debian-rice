@@ -87,6 +87,10 @@ curl -sS https://starship.rs/install.sh | sudo sh
 exec zsh
 ```
 
+Устанавливаем часовой пояс:
+``` zsh
+timedatectl set-timezone Europe/Moscow
+```
 
 Настриаваем плазму:
 micro ~/.config/plasma-org.kde.plasma.desktop-appletsrc
