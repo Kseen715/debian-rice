@@ -60,10 +60,12 @@ sudo apt update && sudo apt upgrade
   
 - `micro`
 - `curl`
+- `htop`
+- `btop`
 </details>
 
 ``` bash
-sudo apt install micro curl open-vm-tools -y
+sudo apt install micro curl open-vm-tools htop btop -y
 ```
 
 
