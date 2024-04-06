@@ -140,8 +140,3 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 && sudo apt update && sudo apt install codium
 ```
 </details>
-
-Удаляем ненужное:
-``` zsh
-sudo apt remove nextcloud sweeper -y && sudo apt autoremove
-```
