@@ -26,7 +26,6 @@ Debian 12.5.0 64-bit @ 2024.03.06
 - Dotfiles: here
 - Wallpapers: [here](https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/gruvbox_forest-4.png)
 
-<img src=https://i.imgur.com/SFu8C1O.png>
 <img src=https://i.imgur.com/vaEOImP.jpeg>
 <details><summary>More screenshots</summary>
 <img src=https://i.imgur.com/z89N0A5.jpeg>
