@@ -6,16 +6,18 @@ https://www.reddit.com/r/unixporn/comments/kt1qlg/plasma_my_first_rice_on_endeav
 https://www.reddit.com/r/unixporn/comments/wih7jm/kde_plasma_new_desktop_layout_for_my_daily_driver/
 https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/
 
-**Конфигурация**:</br>
-- OS: Debian</br>
-- DE: KDE/Plasma</br>
-- WM: KWin</br>
-- Terminal: Konsole</br>
-- Shell: ZSH with [Starship](https://starship.rs/)</br>
-- Fonts: Fira Code + Iosevka</br>
-- ColorScheme: My Gruvbox</br>
-- Icons: My fork of tela icons to match the gruvbox vibes a bit more</br>
-- Dotfiles: here</br>
+**Конфигурация**:
+- OS: Debian 12
+- DE: KDE/Plasma
+- WM: KWin
+- Terminal: Konsole
+- Shell: ZSH with [Starship](https://starship.rs/)
+- Fonts:
+  - Regular: [Iosevka](https://typeof.net/Iosevka/) / [Fira Code Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/FiraCode.zip)
+  - Mono: [Fira Code Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/FiraCode.zip)
+- ColorScheme: Gruvbox-Dark-B-LB
+- Icons: Gruvbox
+- Dotfiles: here
 - Wallpapers: here
 
 <details><summary><b>Настройка пользователя</b></summary>
