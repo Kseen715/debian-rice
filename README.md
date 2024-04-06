@@ -121,7 +121,7 @@ timedatectl set-timezone Europe/Moscow
 
 Setting up KDE:
 - [Global Theme](https://store.kde.org/p/1327723)
-- [Login Screen](https://store.kde.org/p/1312658)https://store.kde.org/p/1214121
+- [Login Screen](https://store.kde.org/p/1214121) (with global theme colors)
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 - [Konsole Theme](https://store.kde.org/p/1327725)
 
