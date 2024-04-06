@@ -18,30 +18,33 @@ https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real
 - Dotfiles: here</br>
 - Wallpapers: here
 
-Переходим в root:
-``` bash
-su
-```
+<details><summary><b>Настройка пользователя</b></summary>
 
-Устанавливаем sudo:
-``` bash
-sudo apt install sudo
-```
-
-Создаем нового пользователя (если уже не создан):
-``` bash
-sudo adduser <username>
-```
-
-Выдаем sudo для пользователя:
-``` bash
-sudo usermod -aG sudo <username>
-```
-
-Меняем пользователя на созданного:
-``` bash
-su <username>
-```
+  Переходим в root:
+  ``` bash
+  su
+  ```
+  
+  Устанавливаем sudo:
+  ``` bash
+  sudo apt install sudo
+  ```
+  
+  Создаем нового пользователя (если уже не создан):
+  ``` bash
+  sudo adduser <username>
+  ```
+  
+  Выдаем sudo для пользователя:
+  ``` bash
+  sudo usermod -aG sudo <username>
+  ```
+  
+  Меняем пользователя на созданного:
+  ``` bash
+  su <username>
+  ```
+</details>
 
 Обновляем все:
 ``` bash
@@ -93,4 +96,5 @@ timedatectl set-timezone Europe/Moscow
 ```
 
 Настриаваем плазму:
-micro ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+Login Screen
+https://store.kde.org/p/1312658
