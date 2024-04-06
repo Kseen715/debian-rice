@@ -20,6 +20,8 @@ https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real
 - Dotfiles: here
 - Wallpapers: here
 
+<img src=https://i.imgur.com/2suuFos.png>
+
 <details><summary><b>Настройка пользователя</b></summary>
 
   Переходим в root:
