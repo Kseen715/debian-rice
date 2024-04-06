@@ -141,3 +141,8 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 && sudo apt update && sudo apt install codium
 ```
 </details>
+
+Чистка раздражающих приложений:
+``` zsh
+sudo apt remove kmail kate konqueror -y
+```
