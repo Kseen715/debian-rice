@@ -102,12 +102,10 @@ sudo mv *.ttf /usr/share/fonts/truetype
 </details>
 
 Настриаваем плазму:
-Login Screen
-https://store.kde.org/p/1312658
-Screen Locking Wallpapers
-https://store.kde.org/p/1069729
-Global Theme
-https://store.kde.org/p/1327723
+- [Global Theme](https://store.kde.org/p/1327723)
+- [Login Screen](https://store.kde.org/p/1312658)
+- [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
+
 
 Удаляем ненужное:
 ``` zsh
