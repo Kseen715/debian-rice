@@ -73,10 +73,11 @@ Install neccessary (for me) soft:
   - `btop`
   - `latte-dock`
   - `snapd`
+  - `wireguard`
 </details>
 
 ``` bash
-sudo apt install micro curl htop btop latte-dock snapd -y
+sudo apt install micro curl htop btop latte-dock snapd wireguard -y
 ```
 
 
@@ -164,7 +165,8 @@ Setting up KDE:
 <details open><summary><b>Telegram Desktop</b></summary>
 
   ``` zsh
-  sudo snap install telegram-desktop
+  wget https://telegram.org/dl/desktop/linux -O tg.tar.xz
+
   ```
 </details>
 
