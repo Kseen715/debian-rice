@@ -95,11 +95,12 @@ exec zsh
 timedatectl set-timezone Europe/Moscow
 ```
 
-Установка шрифтов
+<details><summary><b>Установка шрифтов</b></summary>
+  
 ``` zsh
-
+sudo mv *.ttf /usr/share/fonts/truetype
 ```
-
+</details>
 
 Настриаваем плазму:
 Login Screen
