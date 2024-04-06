@@ -71,11 +71,12 @@ Install neccessary (for me) soft:
 - `curl`
 - `htop`
 - `btop`
-- `latte-dock` 
+- `latte-dock`
+- `snap`
 </details>
 
 ``` bash
-sudo apt install micro curl htop btop latte-dock -y
+sudo apt install micro curl htop btop latte-dock snap -y
 ```
 
 
