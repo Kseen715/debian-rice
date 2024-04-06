@@ -6,6 +6,10 @@ https://www.reddit.com/r/unixporn/comments/kt1qlg/plasma_my_first_rice_on_endeav
 https://www.reddit.com/r/unixporn/comments/wih7jm/kde_plasma_new_desktop_layout_for_my_daily_driver/
 https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/
 
+<p align="center">
+  <img src="https://github.com/Kseen715/imgs/blob/main/sakura_kharune.png" title="Logo" alt="Logo" width="150" height="150"/>
+</p>
+
 **Конфигурация**:
 - OS: Debian 12
 - DE: KDE/Plasma
