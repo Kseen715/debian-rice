@@ -113,7 +113,7 @@ sudo mv *.ttf /usr/share/fonts/truetype
 - [Login Screen](https://store.kde.org/p/1312658)
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 
-<details><summary><b>VSCode (insiders)</b></summary>
+<details open><summary><b>VSCode (insiders)</b></summary>
   
 ``` zsh
 sudo apt-get install wget gpg
