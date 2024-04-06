@@ -1,10 +1,9 @@
 # debian-rice
 Debian 12.5.0 64-bit @ 2024.03.06
 
-<details open><summary><b>Вдохновлено</b></summary>
+<details open><summary><b>Inspired by:</b></summary>
 
 - [Reddit - Shaggy96Fi](https://www.reddit.com/r/unixporn/comments/lydglv/kdeplasma_easy_on_the_eyes_gruvbox_theme/)
-- [Reddit - linuxscoop](https://www.reddit.com/r/unixporn/comments/wih7jm/kde_plasma_new_desktop_layout_for_my_daily_driver/)
 - [Reddit - 8KCoffeeWizard](https://www.reddit.com/r/unixporn/comments/y72zlv/kde_kde_rice_without_blur_real/)
 </details>
 
@@ -12,7 +11,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
   <img src="https://github.com/Kseen715/imgs/blob/main/sakura_kharune.png" title="Logo" alt="Logo" width="150" height="150"/>
 </p>
 
-**Конфигурация**:
+**Config:**
 - OS: Debian 12
 - DE: KDE/Plasma
 - WM: KWin
@@ -31,93 +30,94 @@ Debian 12.5.0 64-bit @ 2024.03.06
 <img src=https://i.imgur.com/z89N0A5.jpeg>
 </details>
 
-<details><summary><b>Настройка пользователя</b></summary>
+<details><summary><b>User setup:</b></summary>
 
-  Переходим в root:
+  Switch to root:
   ``` bash
   su
   ```
   
-  Устанавливаем sudo:
+  Install `sudo`:
   ``` bash
   sudo apt install sudo
   ```
   
-  Создаем нового пользователя (если уже не создан):
+  Create new user (if not already):
   ``` bash
   sudo adduser <username>
   ```
   
-  Выдаем sudo для пользователя:
+  Allow sudo for new user:
   ``` bash
   sudo usermod -aG sudo <username>
   ```
   
-  Меняем пользователя на созданного:
+  Switch to freshly sudoed user:
   ``` bash
   su <username>
   ```
 </details>
 
-Обновляем все:
+Update all thingies:
 ``` bash
 sudo apt update && sudo apt upgrade
 ```
 
-Устанавливаем необходимый софт:
-<details><summary>список</summary>
+Install neccessary (for me) soft:
+<details><summary>list</summary>
   
 - `micro`
 - `curl`
 - `htop`
 - `btop`
+- `latte-dock` 
 </details>
 
 ``` bash
-sudo apt install micro curl htop btop -y
+sudo apt install micro curl htop btop latte-dock -y
 ```
 
 
-Устанавливаем `zsh` и перезапускаем сессию:
+Install `zsh` & reboot session:
 ``` bash
 sudo ap install zsh -y && which zsh && chsh -s $(which zsh) && sudo reboot now
 ```
 
-Устанавливаем `Oh My Zsh`
+Install `Oh My Zsh`:
 ``` zsh
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+<details><summary>If errors with GitHub appears</summary>
 
-Если не удается подключиться к GitHub, добавляем прокси:
-```
-# /etc/hosts
-...
-199.232.28.133 raw.githubusercontent.com
-...
-```
+  Add this to `/etc/hosts`:
+  ```
+  199.232.28.133 raw.githubusercontent.com
+  ```
+</details>
 
-Плагины `OMZ`:
+Plugins for `Oh My Zsh`:
 ``` zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && curl -sS https://starship.rs/install.sh | sudo sh
 ```
 
+Remember to relaunch zsh after reconfig:
 ``` zsh
 exec zsh
 ```
 
-Устанавливаем часовой пояс:
+Configure timezone:
 ``` zsh
 timedatectl set-timezone Europe/Moscow
 ```
 
-<details><summary><b>Установка шрифтов</b></summary>
+<details><summary><b>Install fonts</b></summary>
   
 ``` zsh
 sudo mv *.ttf /usr/share/fonts/truetype
 ```
 </details>
 
-Настраиваем плазму:
+Setting up KDE:
 - [Global Theme](https://store.kde.org/p/1327723)
 - [Login Screen](https://store.kde.org/p/1312658)
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
@@ -159,7 +159,7 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 ```
 </details>
 
-Чистка раздражающих приложений:
+Delete some bloatware:
 ``` zsh
 sudo apt remove kmail kate konqueror -y
 ```
