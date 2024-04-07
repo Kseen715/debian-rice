@@ -165,8 +165,23 @@ Setting up KDE:
 <details open><summary><b>Telegram Desktop</b></summary>
 
   ``` zsh
-  wget https://telegram.org/dl/desktop/linux -O tg.tar.xz
+  wget https://telegram.org/dl/desktop/linux -O tg.tar.xz \
+  && tar -xf tg.tar.xz \
+  && rm tg.tar.xz \
+  && mv ./Telegram/Telegram ./Telegram/telegram \
+  && mv ./Telegram/Updater ./Telegram/telegram-updater \
+  && sudo mv ./Telegram/telegram /usr/bin/ \
+  && sudo mv ./Telegram/telegram-updater /usr/bin/ \
+  && rm -rf ./Telegram
+  ```
+</details>
 
+<details open><summary><b>Shadowsocks</b></summary>
+  
+  ``` zsh
+  wget https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v3.0.1/Shadowsocks-Qt5-3.0.1-x86_64.AppImage -O shadowsocks \
+  && chmod a+x shadowsocks \
+  && sudo mv shadowsocks /usr/bin/
   ```
 </details>
 
