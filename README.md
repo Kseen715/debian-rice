@@ -11,7 +11,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
   <img src="https://github.com/Kseen715/imgs/blob/main/sakura_kharune.png" title="Logo" alt="Logo" width="150" height="150"/>
 </p>
 
-**Config:**
+## Config
 - OS: Debian 12
 - DE: KDE/Plasma
 - WM: KWin
@@ -30,6 +30,8 @@ Debian 12.5.0 64-bit @ 2024.03.06
   <img src=https://i.imgur.com/z89N0A5.jpeg>
   <img src=https://i.imgur.com/xdnn8W3.png>
 </details>
+
+## Installation
 
 <details><summary><b>User setup:</b></summary>
 
@@ -126,17 +128,7 @@ Setting up KDE:
 - [Screen Locking Wallpapers](https://store.kde.org/p/1069729)
 - [Konsole Theme](https://store.kde.org/p/1327725)
 
-<details><summary><b>VSCode</b></summary>
-  
-  ``` zsh
-  sudo apt-get install wget gpg
-  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-  rm -f packages.microsoft.gpg
-  sudo apt update && sudo apt install code
-  ```
-</details>
+## IDE
 
 <details open><summary><b>VSCode Insiders</b></summary>
   
@@ -147,6 +139,18 @@ Setting up KDE:
   sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
   rm -f packages.microsoft.gpg
   sudo apt update && sudo apt install code-insiders
+  ```
+</details>
+
+<details><summary><b>VSCode</b></summary>
+  
+  ``` zsh
+  sudo apt-get install wget gpg
+  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+  rm -f packages.microsoft.gpg
+  sudo apt update && sudo apt install code
   ```
 </details>
 
@@ -162,6 +166,8 @@ Setting up KDE:
   ```
 </details>
 
+## Messengers
+
 <details open><summary><b>Telegram Desktop</b></summary>
 
   ``` zsh
@@ -176,6 +182,8 @@ Setting up KDE:
   ```
 </details>
 
+## Proxy
+
 <details open><summary><b>Shadowsocks</b></summary>
   
   ``` zsh
@@ -184,6 +192,8 @@ Setting up KDE:
   && sudo mv shadowsocks /usr/bin/
   ```
 </details>
+
+## Cleanup
 
 Delete some bloatware:
 ``` zsh
