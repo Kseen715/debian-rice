@@ -22,7 +22,7 @@ Debian 12.5.0 64-bit @ 2024.03.06
   - Mono: [Fira Code Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/FiraCode.zip)
 - ColorScheme: Gruvbox-Dark-B-LB
 - Icons: Gruvbox
-- Dotfiles: here
+- Dotfiles: [here](https://github.com/Kseen715/debian-rice/tree/main/dotfiles)
 - Wallpapers: [here](https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/gruvbox_forest-4.png)
 
 <img src=https://i.imgur.com/vaEOImP.jpeg>
