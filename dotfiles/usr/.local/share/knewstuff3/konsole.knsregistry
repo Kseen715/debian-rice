@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="462">
+  <name>Gruvbox konsole</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1327725</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>70</rating>
+  <downloads>41449</downloads>
+  <installedfile>/home/debian/.local/share/konsole/Gruvbox.colorscheme</installedfile>
+  <id>1327725</id>
+  <releasedate>2019-09-29</releasedate>
+  <summary>&lt;span style="text-decoration: underline;">&lt;strong>Gruvbox theme&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+Based on the gruvbox scheme colors for vim [https://github.com/morhetz/gruvbox](https://github.com/morhetz/gruvbox).&lt;br />
+&lt;br />
+&lt;span style="color: #282828;">◼&lt;/span>&lt;span style="color:...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1327725/e4540e5c3b1a654c897bee697df1588ce8b71.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1327725/e4540e5c3b1a654c897bee697df1588ce8b71.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk3MzY4MjIiLCJvIjoiMSIsInMiOiI0ZjY0YTA4YTFiYTRlMDc1YmZlZWViMTE5MzhkOWRiNDZkMjI1MWFjMjk0ODk2OGI1ODliZGViMDkyOTVjNmQwMDg1YWJlYzI4NjBkOGM5ZTE3ZjA1NDMxYTZlZmUyOWJkMWIxYzQ2ZTFmOTVmMzk4NzlmN2M5ZTEzYzFiODIxZCIsInQiOjE3MTI0Mzc0ODMsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.GXdVyGfHlwXPqHHPQyRcp3Cn48V-rcqmpnAYCsZUay0/Gruvbox.colorscheme.tar.gz</payload>
+  <tags>original-product,gplv3,addon,konsole</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

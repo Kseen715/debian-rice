@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="211">
+  <name>MediumRounded</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1327319</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>55</rating>
+  <downloads>251566</downloads>
+  <installedfile>/home/debian/.local/share/kwin/tabbox/MediumRounded</installedfile>
+  <id>1327319</id>
+  <releasedate>2019-09-26</releasedate>
+  <summary>Windows Switcher rounded with a perfect size of icons :)&lt;br />
+The highlight color is taken from the color scheme &lt;br />
+&lt;br />
+# Installation:&lt;br />
+Download, extract and place the content in ~/.local/share/kwin/tabbox/&lt;br />
+or by system configurations &lt;br />
+[  SystemSettings &amp;gt; WindowManagement &amp;gt; TaskSwitcher &amp;gt; Get New Task Switcher. ]</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1327319/36ffc7f6315b66d5b392b2820360643f26c11.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1327319/36ffc7f6315b66d5b392b2820360643f26c11.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk1MzIzMTYiLCJvIjoiMSIsInMiOiI5NzUyMGNhODJhMDFlYjk1OGFhNzA0MzJjNWNmMzM2ZmZjOWY3NTg5ZGNjNGUxNjg2OTQ4NjFiNjMwNzQ5NDFhODc5N2MxMjcwZGFlMDllNTg0ODRjY2QxNjhjYzZmYTAxOTlhOGM1NGYwYTY2ZWExOWNiMDAxNzkyNzdjZThjNyIsInQiOjE3MTI0MjUyNjQsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.T6vsAfSTl3MYFEERvkbe7uhlsRBJN69pRIVxxDIriEI/MediumRounded.tar.gz</payload>
+  <tags>gplv3,unix,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

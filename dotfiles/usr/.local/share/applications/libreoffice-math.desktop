@@ -1,0 +1,33 @@
+[Desktop Action NewDocument]
+Exec=libreoffice --math
+Icon=document-new
+Name[en_US]=New Formula
+Name=New Formula
+
+[Desktop Entry]
+Actions=NewDocument;
+Categories=Office;Math;
+Comment[en_US]=Create and edit scientific formulas and equations by using Math.
+Comment=Create and edit scientific formulas and equations by using Math.
+Exec=libreoffice --math %U
+GenericName[en_US]=Formula Editor
+GenericName=Formula Editor
+Icon=libreoffice-math
+InitialPreference=5
+Keywords=Equation;OpenDocument Formula;Formula;odf;MathML;
+MimeType=application/vnd.sun.xml.math;application/vnd.oasis.opendocument.formula-template;application/vnd.oasis.opendocument.formula;application/mathml+xml;application/mathml+xml;
+Name[en_US]=LibreOffice Math
+Name=LibreOffice Math
+NoDisplay=false
+NotShowIn=GNOME;
+Path=
+StartupNotify=true
+StartupWMClass=libreoffice-math
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-GIO-NoFuse=true
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
+X-KDE-SubstituteUID=false
+X-KDE-Username=

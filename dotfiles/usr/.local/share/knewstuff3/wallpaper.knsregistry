@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="510">
+  <name>Stellar vintage</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1324997</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>64</rating>
+  <downloads>66375</downloads>
+  <installedfile>/home/debian/.local/share/wallpapers/stellarvintage.jpg</installedfile>
+  <id>1324997</id>
+  <releasedate>2019-09-16</releasedate>
+  <summary>Space wallpaper with small vintage touch</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1324997/d6c8df14a475e33537b75ecb3a7389a42d981.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1324997/d6c8df14a475e33537b75ecb3a7389a42d981.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njg2MTI2NTEiLCJvIjoiMSIsInMiOiJjMjg4NTg5NWJlZDExYWIxM2FjNThjN2NkOGU2NTI4NjRkYjkwZDU5ZmE4NGZmYjE2ZGJiNGRlOGVmNDJjYzdmZWI4MzRlYjVhMTZjYzBhYjA2YjhiOTczMzM3NTAzZTNmNjI3ODlmMTk0NjgwNjJkYzdhMDQyMzlmYjhiN2MyOSIsInQiOjE3MTI0MjUyNzUsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ._MhhGxhyui2NXgOeG_T-7s8fHwuW2aM2OTVtMQoO7OU/stellarvintage.jpg</payload>
+  <tags>wallpaper,artwork,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>PopKdeDark wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1327326</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>50</rating>
+  <downloads>98936</downloads>
+  <installedfile>/home/debian/.local/share/wallpapers/tony-webster-97532.jpg</installedfile>
+  <id>1327326</id>
+  <releasedate>2019-09-26</releasedate>
+  <summary>Wallpaper by PopOs !  for look and feel PopKdeDark theme. &lt;br />
+&lt;br />
+Source: https://system76.com/swag/desktop-wallpapers</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1327326/c7aaf56795d6697219f3fefe434d6be498991.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1327326/c7aaf56795d6697219f3fefe434d6be498991.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk1NDAyMTYiLCJvIjoiMSIsInMiOiI1NTY3MTUyMDFjNjU2MDU1MjEyYTliODU3YzkyZmI3ZjllZjU0MjZmM2JkNDdjZDU2ZWYyMmRmMWUzNzcwNTZhZmNjN2ViOGJlNmI5MjRmZTUyZDNlYzMzMGNiNWM1N2YxZDIyYTZmYjAzYjg1MzkyNzAwYWZmMGZjNDBlOTM5MCIsInQiOjE3MTI0MjUyNzcsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.z3D9Vyr7hkA-Omw9dNMeScsu9VKM2f9fihFdw15VV9c/tony-webster-97532.jpg</payload>
+  <tags>artwork,gplv3,kde,wallpaper,pop_os,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="296">
+  <name>Gruvbox Lines</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>robertob45</author>
+  <homepage>https://store.kde.org/p/1436388</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>60</rating>
+  <downloads>3071</downloads>
+  <installedfile>/home/debian/.local/share/wallpapers/Gruvbox Lines.png</installedfile>
+  <id>1436388</id>
+  <releasedate>2020-10-20</releasedate>
+  <summary>A simple "lines/shapes" themed wallpaper based on the Gruvbox colour palette</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/57/73/89/1436388/3287c539ac9f9178779ded613c2c3009a33e1afbf06350ede657a94d794ab0e986ce1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/57/73/89/1436388/3287c539ac9f9178779ded613c2c3009a33e1afbf06350ede657a94d794ab0e986ce1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDMyNTMyMDgiLCJvIjoiMSIsInMiOiI2Mzg1OGVmNjVjMWMyNGM1YmRkYjA1YmI2MDZjMjg5OTdmMmUzZmI5MTFmMTIxZjQ3MjFkY2Y4MTNlNzA0OGQzOGMzNWY3ZmNhZWNlMGQxZDY2ZTZlZWY2YmI5MmU0MTlkZjg0NWQzMTYyMThmNGFlNTczNGJhMjdmMjhhMmQ3YyIsInQiOjE3MTI0MjYwODksInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.JqhbVUDMVJVAKdOptB3sSLPtlTYFpAvpi45_4dILWmg/Gruvbox Lines.png</payload>
+  <tags>artwork,abstract,wallpaper,mit-license,colors,efi,shapes</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="298">
+  <name>Sunset on Campotosto lake</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>zenren</author>
+  <homepage>https://store.kde.org/p/1069729</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>75</rating>
+  <downloads>103019</downloads>
+  <installedfile>/home/debian/.local/share/wallpapers/126360-p6110227-pulvar1920.jpg</installedfile>
+  <id>1069729</id>
+  <releasedate>2012-02-24</releasedate>
+  <summary>Here is another view of this lake:&lt;br />
+http://kde-look.org/content/show.php?content=129928</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/10/32/08/1069729/126360-11.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/10/32/08/1069729/126360-11.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0NjA5Mjk3NDUiLCJvIjoiMSIsInMiOiI0MWJkM2Q1ODgzMjBmODJmYWU3Yjg3OGYzNjEyYWFkNmFlOWFjZGUwNGNkNWEyMjgwODk0NTIyOGMxOGQzMTU3MTRkY2Y0Y2UzNWFmYzI1OGQ4OTdlMjE1NmVkY2Y3NDZmZGMxYTE3NDczOGY2OTliYzc0ODA0NmJlNWUxZmNlMCIsInQiOjE3MTI0MjUxMzcsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.QQdGO0JorHTi3dlRNAQl3MK77Mb3-G8aQmh2LSEP4ug/126360-p6110227-pulvar1920.jpg</payload>
+  <tags>nature,wallpaper,artwork</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

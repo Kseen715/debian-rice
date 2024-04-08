@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="132">
+  <name>Gruvbox icon theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1327720</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>78</rating>
+  <downloads>86254</downloads>
+  <installedfile>/home/debian/.local/share/icons/Gruvbox/*</installedfile>
+  <id>1327720</id>
+  <releasedate>2019-09-29</releasedate>
+  <summary>&lt;span style="text-decoration: underline;">&lt;strong>Gruvbox icon theme&lt;/strong> &lt;/span>&lt;br />
+&lt;br />
+This icon set is based on the theme of gruvbox colors for vim &lt;a href="https://github.com/morhetz/gruvbox" target="_blank" rel="nofollow">https://github.com/morhetz/gruvbox&lt;/a>.&lt;br />
+&lt;br />
+We adapt the colors of all the icons for the new scheme.&lt;br />
+&lt;br />
+The original application icons are from the Papirus icon set &lt;a href="https://www.pling.com/p/1166289/" target="_blank" rel="nofollow">opendeskop&lt;/a>. All other icons are inherited by the theme Papirus (which we kindly recommend using).&lt;br />
+&lt;br />
+&lt;strong>Thanks to:&lt;/strong>&lt;br />
+KDE team&lt;br />
+Papirus Development Team&lt;br />
+&lt;br />
+&lt;span style="text-decoration: underline;">&lt;strong>Gruvbox theme&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+Based on the gruvbox scheme colors for vim [https://github.com/morhetz/gruvbox](https://github.com/morhetz/gruvbox).&lt;br />
+&lt;br />
+&lt;span style="color: #282828;">◼&lt;/span>&lt;span style="color: #fb4934;">◼&lt;/span>&lt;span style="color: #b8bb26;">◼&lt;/span>&lt;span style="color: #fabd2f;">◼&lt;/span>&lt;span style="color: #83a598;">◼&lt;/span>&lt;span style="color: #d3869b;">◼&lt;/span>&lt;span style="color: #8ec07c;">◼&lt;/span>&lt;span style="color: #fe8019;">◼&lt;/span>&lt;br />
+&lt;span style="color: #fbf1c7;">◼&lt;/span>&lt;span style="color: #cc241d;">◼&lt;/span>&lt;span style="color: #98971a;">◼&lt;/span>&lt;span style="color: #d79921;">◼&lt;/span>&lt;span style="color: #458588;">◼&lt;/span>&lt;span style="color: #b16286;">◼&lt;/span>&lt;span style="color: #689d6a;">◼&lt;/span>&lt;span style="color: #d65d0e;">◼&lt;/span>&lt;br />
+&lt;br />
+&lt;span style="text-decoration: underline;">&lt;strong>Plasma, gnome, xfce, cinnamon, lxde, i3 &lt;/strong>&lt;/span>&lt;br />
+&lt;br />
++ &lt;strong>Icons&lt;/strong>&lt;a href="https://www.pling.com/p/1327720/" target="_blank" rel="nofollow"> here &lt;/a> extract the content in &lt;code>&lt;span style="color: #000000">
+&amp;nbsp;~/.local/share/icons/&amp;nbsp;&lt;/span>
+&lt;/code>&lt;br />
+&lt;br />
+&lt;span style="text-decoration: underline;">&lt;strong>Plasma:&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
++ &lt;strong>Look and feel&lt;/strong> &lt;a href="https://www.pling.com/p/1327723/" target="_blank" rel="nofollow"> link &lt;/a> install from systemsettings &amp;gt; look and feel &amp;gt; get new theme &lt;br />
++ &lt;strong>Color scheme&lt;/strong> &lt;a href="https://www.pling.com/p/1327717/" target="_blank" rel="nofollow"> link &lt;/a> extract the content in &lt;code>&lt;span style="color: #000000">
+&amp;nbsp;~/.local/share/color-schemes/&amp;nbsp;&lt;/span>
+&lt;/code>&lt;br />
++ &lt;strong>Plasma theme&lt;/strong> &lt;a href="https://www.pling.com/p/1327719/" target="_blank" rel="nofollow"> link &lt;/a> extract the content in &lt;code>&lt;span style="color: #000000">
+&amp;nbsp;~/.local/share/plasma/desktoptheme/&amp;nbsp;&lt;/span>
+&lt;/code>&lt;br />
++ &lt;strong>Aurorae theme&lt;/strong> &lt;a href="https://www.pling.com/p/1327718/" target="_blank" rel="nofollow"> link &lt;/a> extract the content in &lt;code>&lt;span style="color: #000000">
+&amp;nbsp;~/.local/share/aurorae/themes/&amp;nbsp;&lt;/span>
+&lt;/code> &lt;br />
++ &lt;strong>Konsole&lt;/strong> &lt;a href="https://www.pling.com/p/1327725/" target="_blank" rel="nofollow"> link &lt;/a> extract the content in &lt;code>&lt;span style="color: #000000">
+&amp;nbsp;~/.local/share/konsole/&amp;nbsp;&lt;/span>
+&lt;/code>&lt;br />
+&lt;br />
+- Plasmoids for KDE&lt;br />
+&lt;br />
+* Launcher: &lt;a href="https://www.pling.com/p/1324206/" target="_blank" rel="nofollow"> NavDexie menu&lt;/a>&lt;br />
+* Clock: &lt;a href="https://www.pling.com/p/1324315/" target="_blank" rel="nofollow"> Split digital clock&lt;/a>&lt;br />
+&lt;br />
+&lt;span style="text-decoration: underline;">&lt;strong>Coffee&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+If you like my work :&lt;br />
+&lt;br />
+Share your ❤️ Buy me a ☕ from &lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=V9Q8MK9CKSQW8&amp;amp;source=url" target="_blank" rel="nofollow">Paypal&lt;/a> or &lt;a href="https://liberapay.com/_adhe_/donate" target="_blank" rel="nofollow">Liberapay&lt;/a>&lt;br />
+&lt;br />
+Have fun ;)</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1327720/e4540e5c3b1a654c897bee697df1588ce8b71.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1327720/e4540e5c3b1a654c897bee697df1588ce8b71.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk3MzMzMzciLCJvIjoiMSIsInMiOiIxODdmM2JiMjBjODRjMTEzY2U2YTY0NGExNzVlNTZmYmFhZTA5ZDMxOGFmYTQyYmZiMmIwZDRjYTE3OWE2ZDY0NWNlNzY5ZTFmOTNlZTg0NGFkZGY1YmNmMTM2NWVhNmE4MWM3YTllMDZkZWQxNjQyNjUyMjhhNTBkNDIwMTA2MCIsInQiOjE3MTI0MjUyNjYsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.3_MSW9r5E8X0k6PL5Hn1re2l74RpKVZAxAFTXhbMYZM/Gruvbox.tar.gz</payload>
+  <tags>unix,gplv3,gnome,icon,icon-theme,kde,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

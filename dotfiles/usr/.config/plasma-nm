@@ -1,0 +1,5 @@
+[General]
+HotspotName=debian-hotspot
+HotspotPassword=
+ManageVirtualConnections=true
+UnlockModemOnDetection=true

@@ -1,0 +1,23 @@
+2024-04-08 18:57:11 0 [Note] Starting MariaDB 10.11.6-MariaDB-0+deb12u1 source revision  as process 1672
+2024-04-08 18:57:11 0 [Warning] option 'innodb-log-buffer-size': unsigned value 1048576 adjusted to 2097152
+2024-04-08 18:57:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-04-08 18:57:11 0 [Note] InnoDB: Number of transaction pools: 1
+2024-04-08 18:57:11 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-04-08 18:57:11 0 [Note] InnoDB: Using liburing
+2024-04-08 18:57:11 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-04-08 18:57:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-04-08 18:57:14 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-04-08 18:57:14 0 [Note] InnoDB: End of log at LSN=158693
+2024-04-08 18:57:15 0 [Note] InnoDB: 128 rollback segments are active.
+2024-04-08 18:57:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-04-08 18:57:15 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-04-08 18:57:15 0 [Note] InnoDB: log sequence number 158693; transaction id 302
+2024-04-08 18:57:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-04-08 18:57:15 0 [Note] InnoDB: Loading buffer pool(s) from /home/debian/.local/share/akonadi/db_data/ib_buffer_pool
+2024-04-08 18:57:15 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2024-04-08 18:57:15 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2024-04-08 18:57:15 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1017: Can't find file: './mysql/' (errno: 2 "No such file or directory")
+2024-04-08 18:57:15 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.11.6-MariaDB-0+deb12u1'  socket: '/run/user/1000/akonadi/mysql.socket'  port: 0  Debian 12
+2024-04-08 18:57:15 0 [Note] InnoDB: Buffer pool(s) load completed at 240408 18:57:15
+2024-04-08 18:57:15 4 [ERROR] InnoDB: Table mysql.innodb_table_stats not found.

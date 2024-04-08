@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Gruvbox aurorae</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1327718</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>60</rating>
+  <downloads>72671</downloads>
+  <installedfile>/home/debian/.local/share/aurorae/themes/GruvboxAurorae/*</installedfile>
+  <id>1327718</id>
+  <releasedate>2019-09-29</releasedate>
+  <summary>&lt;span style="text-decoration: underline;">&lt;strong>Gruvbox aurorae  theme&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+Based on the gruvbox scheme colors for vim [https://github.com/morhetz/gruvbox](https://github.com/morhetz/gruvbox).&lt;br />
+&lt;br />
+&lt;span style="color: #282828;">◼&lt;/span>&lt;span style="color:...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1327718/e4540e5c3b1a654c897bee697df1588ce8b71.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1327718/e4540e5c3b1a654c897bee697df1588ce8b71.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk3MzA2NzUiLCJvIjoiMSIsInMiOiI0ZTYxYjE4ZDM3NWZjNTI3MDE5YTY2OGNhZTU3MDM3ZDI3YWYzZGMxNDJiYWIzYTZmN2ZjNTNjY2MwMGExZDdhYzVmMmQxNzU2NGY4MDM5OGRjOWU3ZTZmOWU2NTkwNDk5YWI3Y2ZmNTNhYjFkODMxMThmNTA2Y2ZhNjlhZTZlOCIsInQiOjE3MTI0MjEwMTUsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuMjUzLjE4MS4yMzMifQ.w7oFXm0Ru6InrWG1pGRoAMh8UaiAcl4w81ZGS-ZChJE/GruvboxAurorae.tar.gz</payload>
+  <tags>plasma,original-product,gplv3,aurorae,unix,theme,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

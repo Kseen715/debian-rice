@@ -1,0 +1,5 @@
+[PlasmaRunnerManager]
+LaunchCounts=1 places_remote:/,1 exec:///usr/share/code-insiders/code-insiders,2 exec:///usr/bin/konsole
+
+[PlasmaRunnerManager][History]
+5ffdbaa9-14b6-4eab-a257-085f22ba6c17=network,v,kons,kon

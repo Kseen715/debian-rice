@@ -1,0 +1,11 @@
+ProxyUrlDisplayFlags=1
+
+[Proxy Settings]
+NoProxyFor=
+Proxy Config Script=
+ProxyType=1
+ReversedException=false
+ftpProxy=
+httpProxy=http://127.0.0.1 1090
+httpsProxy=
+socksProxy=

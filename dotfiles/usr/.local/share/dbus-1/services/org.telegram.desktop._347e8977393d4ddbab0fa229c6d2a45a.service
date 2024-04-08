@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.telegram.desktop._347e8977393d4ddbab0fa229c6d2a45a
+Exec=/usr/bin/telegram

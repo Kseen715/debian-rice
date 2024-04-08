@@ -1,0 +1,10 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[GuiConfig]
+captureMode=5
+cropRegion=1252,1347,163,92
+window-position=0,0
+
+[Save]
+lastSaveLocation=file:///home/debian/Pictures/Screenshot_20240407_031010.png

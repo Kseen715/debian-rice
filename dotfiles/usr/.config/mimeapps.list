@@ -1,0 +1,21 @@
+[Added Associations]
+inode/directory=org.kde.dolphin.desktop;
+text/css=micro.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;codium.desktop;code-insiders.desktop;
+text/markdown=micro.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;code-insiders.desktop;codium.desktop;
+text/plain=micro.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;codium.desktop;code-insiders.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+x-scheme-handler/http=firefox-esr.desktop;
+x-scheme-handler/https=firefox-esr.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tg=org.telegram.desktop._7a3ee435cab395d32c818ac75295051a.desktop;
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop;
+text/css=micro.desktop;
+text/markdown=micro.desktop;
+text/plain=micro.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+x-scheme-handler/http=firefox-esr.desktop;
+x-scheme-handler/https=firefox-esr.desktop;
+x-scheme-handler/mailto=org.kde.kmail2.desktop;
+x-scheme-handler/tg=org.telegram.desktop._7a3ee435cab395d32c818ac75295051a.desktop

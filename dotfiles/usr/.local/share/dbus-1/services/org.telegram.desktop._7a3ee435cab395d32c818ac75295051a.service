@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.telegram.desktop._7a3ee435cab395d32c818ac75295051a
+Exec=/home/debian/Temp/Telegram/Telegram
